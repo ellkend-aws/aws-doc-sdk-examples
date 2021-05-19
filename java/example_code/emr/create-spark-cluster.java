@@ -51,7 +51,7 @@ public class Main {
 			.withRegion(Regions.US_WEST_1)
 			.build();
         
-        // create a step to enable debugging in the AWS Management Console
+        // create a step to enable debugging in the Amazon Web Services Management Console
 		StepFactory stepFactory = new StepFactory(); 
 		StepConfig enabledebugging = new StepConfig()
    			.withName("Enable debugging")
